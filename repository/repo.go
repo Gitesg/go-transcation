@@ -1,9 +1,8 @@
 package repository
 
 import (
+	"bank-transaction/model"
 	"sync"
-
-	"../model"
 )
 
 type Repo struct {
